@@ -16,7 +16,7 @@ pip install --no-cache-dir -r requirements.txt -i http://mirrors.aliyun.com/pypi
 
 ```
 python manage.py celery worker -l info
-python manage.py celery beat -l info
+python manage.py celery beat
 ```
 
 ### Run django

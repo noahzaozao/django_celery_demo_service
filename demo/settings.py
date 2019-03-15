@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'djcelery',
+    'demo_app',
 ]
 
 MIDDLEWARE = [
