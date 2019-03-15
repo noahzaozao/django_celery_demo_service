@@ -1,0 +1,6 @@
+celery==4.2.1
+Django==1.11
+django-celery==3.2.2
+redis==3.2.0
+grpcio==1.19.0
+grpcio-tools==1.19.0
