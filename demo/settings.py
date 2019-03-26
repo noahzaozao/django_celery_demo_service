@@ -125,6 +125,6 @@ STATIC_URL = '/static/'
 
 djcelery.setup_loader()
 CELERY_TIMEZONE = TIME_ZONE
-BROKER_URL = 'redis://:Hello123@127.0.0.1:6379/8'
-BROKER_PASSWORD = 'Hello123'
+BROKER_URL = 'redis://:password@127.0.0.1:6379/8'
+BROKER_PASSWORD = 'password'
 CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
